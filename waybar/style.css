@@ -1,0 +1,36 @@
+@import "../../.cache/wal/colors-waybar.css";
+* {
+    border: none;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+}
+
+window#waybar {
+    background: rgba(10, 10, 15, 0.5);
+    border-bottom: 2px solid @color1;
+    color: @forefround;
+    border-radius: 12px;
+    /* Увеличим отступ сверху до 15px, чтобы точно заметить разницу */
+    margin-top: 15px; 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #555555;
+}
+
+#workspaces button.active {
+    color: #00ffff;
+    border-bottom: 2px solid #00ffff;
+}
+
+#clock, #cpu, #memory, #pulseaudio, #network {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 0 15px;
+    margin: 4px 5px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+}
