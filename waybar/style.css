@@ -10,7 +10,6 @@ window#waybar {
     border-bottom: 2px solid @color1;
     color: @forefround;
     border-radius: 12px;
-    /* Увеличим отступ сверху до 15px, чтобы точно заметить разницу */
     margin-top: 15px; 
     margin-left: 15px;
     margin-right: 15px;
